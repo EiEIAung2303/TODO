@@ -28,8 +28,8 @@ function updateDom(data) {
         element.classList.add('col', 'pt-4');
         element.innerHTML = `
         <div class = "d-flex p-1">
-         <span class = "label label-default mr-auto"> Task </span>
-         <span class = "label label-default pr-3"> Complete </span>
+         <span class = "label label-default mr-auto"> ${v.action} </span>
+         <span class = "label label-default pr-3"> ${v.status} </span>
          <span class = "label label-default"> Delete </span>
         </div>
         `;                        
